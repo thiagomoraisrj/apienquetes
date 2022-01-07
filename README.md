@@ -20,3 +20,8 @@ execute `git config --global --edit` e cole o conteúdo abaixo
 - TDD
 - DDD
 - Clean Architecture
+
+## Bibliotecas
+
+- NPM
+- 
