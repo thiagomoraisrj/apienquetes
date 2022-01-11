@@ -12,9 +12,6 @@ describe('SignUp Controller', () => {
     }
 
     const httpResponse = sut.handle(httpRequest)
-    if (httpResponse.statusCode) {
-      return false
-    }
     expect(httpResponse.statusCode).toBe(400)
   })
 })
